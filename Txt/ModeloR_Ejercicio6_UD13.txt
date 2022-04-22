@@ -1,0 +1,13 @@
+Socio (CodigoSocio (pk int),DNI, Nombre, Apellidos, Dirección, Teléfono)
+
+Prestamo (IdPrestamo(pk int), CodigoSocio(fk int), FechaInicial, FechaDevolución, FechaMáxima)
+
+Estado (IdEstado(pk int), IdPrestamos(fk int), Deteriorado, Comentario)
+
+Libros ( IdLibro(pk int), IdPrestamos(fk int), Nombre, Año, Resumen, Autor, NúmerodePáginas)
+
+Películas ( IdPelícula(pk int), IdPrestamos(fk int), Nombre, Año, Resumen, Autor, Duración)
+
+Cd’s ( IdCd’s(pk int), IdPrestamos(fk int), Nombre, Año, Resumen, Autor, NúmerodeCanciones)
+
+Autor ( IdAutor(pk int), IdLibro(fk int), IdPelícula(fk int), IdCd’s(fk int), Nombre, País) 
