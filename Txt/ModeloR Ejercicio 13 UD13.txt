@@ -1,0 +1,21 @@
+Trabajadores (DNI (pk String), Nombre, Apellidos, TeléfonoFijo, TeléfonoMóvil, NºSegSocial)
+
+Cocineros (IdCocineros(pk int), AñosServicios
+
+Pinches (IdPinches(pk int), IdCocineros(fk int), FechaNacimiento
+
+Platos (IdPlatos(pk int), Nombre, Precio, Tipo
+
+Preparar (IdCocineros(pk int)(fk int), IdPlatos(pk int)(fk int))
+
+Ingredientes (IdIngredientes(pk int), Nombre)
+
+Usar (IdPlatos(pk int)(fk int), IdIngredientes(pk int)(fk int))
+
+Estanterias (IdEstanteria(pk int), Letra, Tamaño)
+
+Almacenar (IdIngredientes(pk int)(fk int), IdEstanteria(pk int)(fk int), Cantidad)
+
+Almacenes (NºAlmacen(pk int), Nombre, Descripción, Dirección)
+
+Estar (IdEstanteria(pk int)(fk int),NºAlmacen(pk int)(fk int))
