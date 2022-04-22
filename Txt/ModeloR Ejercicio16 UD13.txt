@@ -1,0 +1,14 @@
+Cuenta (Usuario(pk String), Contraseña)
+
+Notificación (IdNotificación(pk int), Usuario(fk String), Comentarios, TweetsFavoritos, Retweets)
+
+Tendencia (IdTendencia(pk int), Usuario(fk String), Preferencias, Noticias, Actualidad)
+
+Perfil (Nick(pk String), Usuario(fk String), Nombre, Apellido, FotoPerfil, Seguidores)
+
+Mensaje (IdMensaje(pk int), Destinatario, Imagen, Texto, Emoji)
+
+Enviar (Usuario(pk String) (fk String) ), IdMensaje(pk int) (fk int) )
+
+Tweet (IdTweet(pk int), Usuario(fk String),Texto, Imagen, Video, Comentarios)
+
