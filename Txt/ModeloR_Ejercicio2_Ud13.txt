@@ -1,0 +1,11 @@
+Profesor (Dni (PK String), Apellidos, Direccion, Nombre, Telefono)
+
+Empresa (CIF(PK String), Nombre, Telefono, Direccion)
+
+Alumno (Dni (PK String), Cif(FK String),Edad, Direccion, Nombre, Telefono)
+
+Programa (IdPrograma(PK int), Codigo, Duracion, Titulo, Fecha_inicio, Fecha_fin)
+
+Curso (IdCurso(PK int), IdPrograma(FK int), DNI(FK String), Codigo, Duracion, Titulo, Fecha_inicio, Fecha_Fin)
+
+Cursar (Dni(PK String), IdCurso(FK int), Nota)
