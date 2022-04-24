@@ -9,3 +9,19 @@ Trabajador (DNI(pk int), Nombre, Apellidos, CódigoTrabajador, HorasTrabajadas)
 Trabajar (IdProyecto(pk int)(fk int), DNI(pk int)(fk int) )
 
 Profesión (IdProfesión(pk int), DNI((fk int) Nombre)
+
+/******************************************************/
+
+Edit:
+
+Empresa (Codigo interno empresa(pk String), CIF, Nombre, Direccion, Telefono)
+
+Proyecto (IdProyecto(pk int), CodigoInternoEmpresa(fk String) FechaInicio, FechaProvisional, FechaFinalzado)
+
+Trabajador (CodigoTrabajador(pk String), Nombre, Apellidos, DNI)
+
+Trabajar (IdProyecto(pk/fk int), CodigoTrabajador(pk/fk String), Horas Trabajadas )
+
+Profesion (CodigoProfesion(pk String), Nombre, Descripci�n)
+
+Ejercer (CodigoProfesion(pk/fk String), CodigoTrabajador (pk/fk int) )
