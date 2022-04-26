@@ -1,3 +1,0 @@
-Comunidad_Autonoma(Cod_Postal(PK int),Nombre, Habitantes, Superficie)
-Provincia (ID_Provincia(PK int), Nombre, Habitantes, Superficie, Cod-Postal(FK int))
-Localidad(ID_Localidad(PK int), Nombre, Habitantes, Id_Provincia(FK int))

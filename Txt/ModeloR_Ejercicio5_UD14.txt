@@ -1,5 +1,0 @@
-Almacen ( Id Almacen(pk String), Numero, Descripcion, Direccion, Nombre, Cantidad Piezas, Nombre Estanterias )
-
-Estanteria ( Id Estanteria(pk String), Id Almacen(FK) )
-
-Pieza ( Id Pieza(pk String), Descripcion, Precio, Cantidad )
