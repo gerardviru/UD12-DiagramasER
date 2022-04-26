@@ -4,4 +4,4 @@
 
 ## Modelo relacional en la carpeta "Txt"
 
-## Unidad creada por todo el grupo, Gerard V., Constantin V., Aida Q., Gerard S.
+## Unidad creada por todo el grupo: Gerard V., Constantin V., Aida Q., Gerard S.
